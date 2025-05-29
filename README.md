@@ -1,4 +1,4 @@
-# 📦 ETL Pipeline: MySQL Star Schema for DVD Rental Analytics
+# 📦 ETL Pipeline: MySQL Star Schema for Rental Analytics
 
 ## 📖 Overview
 
@@ -8,7 +8,7 @@ This project implements an **ETL (Extract, Transform, Load)** pipeline using Pyt
 
 ## 🏗️ Architecture
 
-- **Source DB**: `filedb` (MySQL) – Transactional DVD rental database
+- **Source DB**: `filedb` (MySQL) – Transactional rental database
 - **Target DB**: `starschema` (MySQL) – Analytical star schema
 - **Language**: Python (with Pandas, SQLAlchemy, Seaborn, Matplotlib)
 
